@@ -18,7 +18,7 @@ export default function Sidebar() {
         <SidebarMenuItem text="Explore" Icon={HashtagIcon}/>
         <SidebarMenuItem text="Notifications" Icon={BellIcon}/>
         <SidebarMenuItem text="Messages" Icon={InboxIcon}/>
-        <SidebarMenuItem text="bookmarks" Icon={BookmarkAltIcon}/>
+        <SidebarMenuItem text="Bookmarks" Icon={BookmarkAltIcon}/>
         <SidebarMenuItem text="Lists" Icon={ClipboardIcon}/>
         <SidebarMenuItem text="Profile" Icon={UserIcon}/>
         <SidebarMenuItem text="More" Icon={DotsCircleHorizontalIcon}/>
