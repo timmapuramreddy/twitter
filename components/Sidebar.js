@@ -6,7 +6,7 @@ import { HashtagIcon, BellIcon, InboxIcon, BookmarkAltIcon, ClipboardIcon, UserI
 
 export default function Sidebar() {
   return (
-    <div className="hidden sm:flex flex-col p-2 xl-items-start fixed h-full">
+    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
         {/* Twitter Logo section */}
         <div className="hoverEffect p-1 hover:bg-blue-100 xl:px-1">
             <Image width="50" height="50" src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png">
@@ -24,11 +24,12 @@ export default function Sidebar() {
         <SidebarMenuItem text="More" Icon={DotsCircleHorizontalIcon}/>
         </div>
         {/* Button */}
-        <button className="bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg">Tweet</button>
+        <button className="bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">Tweet</button>
         {/* Mini Profile */}
-        <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start">
+        <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start mt-auto">
             <img className="h-12 w-12 rounded-full xl:mr-2" 
-             src = "https://www.shareicon.net/data/256x256/2015/09/08/98071_man_512x512.png"
+            //  src = "https://www.shareicon.net/data/256x256/2015/09/08/98071_man_512x512.png"
+            src='/images/DSC_7850.JPG'
              alt="user-img"></img>
             <div className="leading-5 hidden xl:inline">
                 <h4 className="font-bold">Mohan Reddy</h4>
