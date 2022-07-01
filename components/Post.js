@@ -28,8 +28,8 @@ export default function Post({post}) {
             {/* icons */}
             <div className="flex items-center justify-between text-gray-500 p-2">
                 <ChatIcon className="h-9 w-9 hoverEffect hover:text-sky-500 hover:bg-blue-100 p-2" />
-                <TrashIcon className="h-9 w-9 hoverEffect hover:text-red-500 hover:bg-blue-100 p-2" />
-                <HeartIcon className="h-9 w-9 hoverEffect hover:text-red-500 hover:bg-blue-100 p-2" />
+                <TrashIcon className="h-9 w-9 hoverEffect hover:text-red-500 hover:bg-red-100 p-2" />
+                <HeartIcon className="h-9 w-9 hoverEffect hover:text-red-500 hover:bg-red-100 p-2" />
                 <ShareIcon className="h-9 w-9 hoverEffect hover:text-sky-500 hover:bg-blue-100 p-2" />
                 <ChartBarIcon className="h-9 w-9 hoverEffect hover:text-sky-500 hover:bg-blue-100 p-2" />
             </div>
