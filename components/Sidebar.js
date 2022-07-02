@@ -6,7 +6,7 @@ import { HashtagIcon, BellIcon, InboxIcon, BookmarkAltIcon, ClipboardIcon, UserI
 
 export default function Sidebar() {
   return (
-    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
+    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
         {/* Twitter Logo section */}
         <div className="hoverEffect p-1 hover:bg-blue-100 xl:px-1">
             <Image width="50" height="50" src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png">
