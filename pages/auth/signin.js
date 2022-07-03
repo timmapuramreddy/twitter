@@ -6,7 +6,7 @@ export default function signin({ providers }) {
     <div className="flex items-center justify-center mt-20 space-x-4">
         <img className="hidden object-cover md:w-44 md:h-80 md:inline-flex rotate-6"
             src="https://cdn.cms-twdigitalassets.com/content/dam/help-twitter/en/twitter-tips/desktop-assets/ch-01/ch12findphone.png.twimg.1920.png" alt="twitter image" />
-        <div className=" ">
+        <div className="">
             {Object.values(providers).map((provider) => (
                 <div className="flex flex-col items-center">
                     <img className="w-36 object-cover" src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png" alt="twitter logo" />
